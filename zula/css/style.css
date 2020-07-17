@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: vazir;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background: url(../imgs/ZULA_HEADER.jpg);
+    background-attachment: fixed;
+    background-position: top ;
+    width: 100%;
+    padding: 150px;
+}
+.buying-skins{
+    background: url(../imgs/zula-all-charecters.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top ;
+
+    background-repeat: no-repeat ;
+    
+    padding:100px;
+
+}
+.signup{
+    background: url(../imgs/zula-signup.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top ;
+
+    background-repeat: no-repeat ;
+    width: 100%;
+   padding: 50px;
+
+}
+.sign{
+    text-shadow:  3px 3px 0px black ;
+   
+}
+.opacity{
+    opacity: .6 ;
+    max-width: 100%;
+}
+.active{
+      background-color: #7b7a7f !important;
+}
+
+#backtotop:hover{
+    cursor: pointer;
+}
+.d-non{
+    display: none;
+}
+
+
+.togglemenu:hover{
+    cursor: pointer;
+    
+}
+
+
+@media (min-width: 768px){
+    navbar{
+        background-color: #353a40;
+       
+    }
+    
+}

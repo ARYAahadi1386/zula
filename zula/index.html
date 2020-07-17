@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet"
+        href="https://cdn.rawgit.com/rastikerdar/vazir-font/v20.1.0/dist/font-face.css">
+        <link rel="stylesheet" href="fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/fontawesome.min.css">
+    <link rel="shortcut icon" href="imgs/zula-fav.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/jq.js"></script>
+    <title>ZULA</title>
+</head>
+
+<body data-target="#navbar" data-spy="scroll" data-offset="1"> 
+    
+    <navbar id="navbar" class="nav  d- d-flex justify-content-center p-2 fixed-top ">
+        
+
+        <ul class="nav nav-pills text-center">
+            <li class="nav-item  col-sm-12 w-100 col-md d-non d-md-block">
+                <a class="btn btn-dark nav-link text-white border border-secondary   my-1 text-nowrap" href="#home">خانه</a>
+            </li>
+            <li class="nav-item  col-sm-12 col-md d-non d-md-block">
+                <a class="btn btn-dark nav-link text-white border border-secondary   my-1 text-nowrap"  href="#aboutus">درباره ما</a>
+            </li>
+            <li class="nav-item  col-sm-12 col-md d-non d-md-block">
+                <a class="btn btn-dark  nav-link text-white border border-secondary  my-1 text-nowrap" href="#skins">شخصیت های پولی</a>
+            </li>
+            <li class="nav-item  col-sm-12 col-md d-non d-md-block">
+                <a class="btn btn-dark nav-link text-white border border-secondary  my-1 text-nowrap"   href="#signup">ثبت نام</a>
+            </li>
+            <li class="nav-item col-sm-12 col-md d-non d-md-block">
+                <a class="btn btn-dark nav-link text-white border border-secondary  my-1 text-nowrap"   href="https://zula.ir/">سایت رسمی زولا</a>
+            </li>
+        </ul>
+
+
+
+
+
+    </navbar>
+    <button class=" btn btn-light d-md-none border   btnToggleMenu mb-3 fixed-top  m-2">
+            ☰
+        </button>
+    <div id="home" class="header">
+        <h1 class="text-center text-white">زولا</h1>
+        <h3 class="text-center text-white">بهترین بازی شوتر ایرانی</h3>
+
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="row " id="aboutus">
+                <div class="col-md-4 ">
+                    <div class="card bg-light text-center my-5">
+                        <img src="imgs/zula-omid (2).jpg" class="card-img-top" alt="رییس زولا">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">امید : رییس تیم زولا</h5>
+                            <div class="card-text p-3">او در اوشکادار استانبول متولد شد. بعد از فارق التحصیلی از دانشگاه
+                                افسری ترکیه به مارون برت پیوست. به واسطه صداقت، شجاعت و تلاشش موفق شد در بین مافوق های
+                                خود
+                                احترام زیادی به دست آورد. در یکی از ماموریت های خود اطلاعات مهمی در مورد عملیات خاطرناک
+                                غیرقانونی که درون دولت در حال انجام بود به دست آورد. <span id="omid-dots">...</span>
+                                <span class="d-non " id="omid-info">او شروع به پاکسازی دولت از این افراد کرد. این سازمان
+                                    خطرناک، گلادیو
+                                    را
+                                    استخدام کرد تا دمیر را بکشد. در روز عروسی دمیر، گلادیو به تالار عروسی حمله کرد و
+                                    بسیاری
+                                    از نزدیکان و همچنان همسر دمیر را به قتل رساند. بعد از آن روز، دمیر زندگی خود وقف
+                                    گرفتن
+                                    انتقام از آنها کرد و گروه زولا را تاسیس کرد.</span>
+
+                            </div>
+                            <button class="btn btn-success rounded" onclick="omid()" id="omid-btn">ادامه</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card bg-light text-center my-5">
+                        <img src="imgs/Zula_logo.png" class="card-img-top p-2" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">داستان زولا</h5>
+                            <div class="card-text p-3">
+                                ترکیه در طول مدت 50 سال اخیر در معرض خطر نفوذ سرویس های اطلاعاتی خارجی قرار داشته است.
+                                در
+                                نتیجه این اقدامات، تعداد افراد بیگناه زیادی در نقاط مختلف ترکیه کشته شدند. مقامات دولتی
+                                برای
+                                جلوگیری از این اتفاقات تصمیم به مداخله در عملیات های این سرویس ها گرفتند.
+
+                                به منظور پایان دادن به این وضعیت، سروان دمیر ماموریت گرفت که به گلادیو نفوذ کند و در طول
+                                این
+                                ماموریت موفق شد محموله عظیم اسلحه که متعلق به یکی از سرویس های جاسوسی خارجی بود را کشف و
+                                نابود کند. در طول این عملیات، پريالّوشش دمیر لو رفت و او تبدیل به هدف شماره یک گلادیو
+                                شد.
+
+                                <span id="zula-dots">...</span>
+                                <span class="d-non" id="zula-info">اگرچه او ناپدید شده بود ولی آنها فراموشش نکردند و در نهایت او را
+                                    پیدا
+                                    کردند. در روز جشن عروسی دمیر، گلادیو حمله ای را ترتیب داد که در آن دمیر زخمی شد ولی
+                                    همسر
+                                    و سایر بستگان خود را از دست داد.
+
+                                    دمیر دوباره بدون هیچگونه ردی ناپدید شد و تمرینات خود را برای گرفتن انتقام آغاز کرد.
+                                    در
+                                    هرجای کشور مردم را برای متوقف کردن گلادیو ترغیب می کرد. زولا از شعله های آتش خشم
+                                    دمیر
+                                    متولد شد.</span>
+                            </div>
+                            <button class="btn btn-primary rounded" id="zula-btn" onclick="zula()">ادامه</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card bg-light text-center my-5">
+                        <img src="imgs/zula-freydoon.png" class="card-img-top" alt="رییس زولا">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary">فریدون : رییس تیم گلادیو</h5>
+                            <div class="card-text p-3">
+                                او در شهر اشکلون در خانواده ای کارگری متولد شد. لری دانش آموز بسیار باهوشی بود. بعد از
+                                اتمام
+                                دبیرستان موفق به دریافت بورس تحصیلی دانشگاه هاروارد شد. او در رشته ارتباطات بین الملل
+                                تحصیلات خود را به اتمام رساند و در شرکتی که در خاورمیانه فعالیت داشت، مشغول به کار شد و
+                                بعد
+                                از مدتی مدیریت دفتر خاورمیانه را به عهده گرفت.
+                                <span id="freydoon-dots">...</span>
+                                <span class="d-non"  id="freydoon-info">استراتژی های که او پیاده سازی می کرد توسط سازمان های اطلاعاتی مورد
+                                    استفاده قرار می گرفت. همه چیز برای اون خوب پیش می رفت تا زمانی که متوجه شد خانواده
+                                    اش بر
+                                    اثر حمله موشکی در اشکلون کشته شده اند. برای گرفتن انتقام خانواده اش به یکی از این
+                                    سازمان
+                                    های جاسوسی پیوست و بعد از مدتی به استخدام گلادیو در آمد.
+                                </span>
+
+                            </div>
+                            <button class="btn btn-danger rounded" id="freydoon-btn" onclick="freydoon()">ادامه</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row ">
+                <div class="col-md-6">
+                    <div class="card bg-light text-center mb-5">
+                        <img src="imgs/zula-zula-team.jpg" alt="تیم زولا" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary">اعضای تیم زولا</h5>
+                            <div class="card-text p-3">
+                                <div class="row">
+                                    <p class="col-3 text-nowrap">امید</p>
+                                    <p class="col-3 text-nowrap">مراد</p>
+                                    <p class="col-3 text-nowrap">چنگیز</p>
+                                    <p class="col-3 text-nowrap">اسرافیل</p>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="col-3 text-nowrap">بابک</p>
+                                <p class="col-3 text-nowrap">شهرام</p>
+                                <p class="col-3 text-nowrap">بهروز</p>
+                                <p class="col-3 text-nowrap">ندا جوان</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card bg-light text-center">
+                        <img src="imgs/zula-gladyo-team.jpg" alt="تیم زولا" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary">اعضای تیم گلادیو</h5>
+                            <div class="card-text p-3">
+                                <div class="row ">
+                                    <p class="col-3 text-nowrap text-nowrap">فریدون</p>
+                                    <p class="col-3 text-nowrap text-nowrap">خسرو</p>
+                                    <p class="col-3 text-nowrap text-nowrap">داوود</p>
+                                    <p class="col-3 text-nowrap text-nowrap">شاهین</p>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="col-3 text-nowrap text-nowrap">سارا</p>
+                                <p class="col-3 text-nowrap text-nowrap">حامد</p>
+                                <p class="col-3 text-nowrap text-nowrap">ال پاترون</p>
+                                <p class="col-3 text-nowrap text-nowrap">النا آصف</p>
+                            </div>
+                            <p class="d-non " id="ivan-info">مهمترین مشخصه ای که گلادیو را از دیگر سازمان ها متمایز می کند موفقیت آنها
+                                در
+                                استراتژی است که در مبارزاتشان پیاده سازی می کنند
+
+                                ایوان، فرمانده منطقه ای گلادیو وظیفه مدیریت سرویس های اطلاعاتی کشورهای خارجی که در ترکیه
+                                مستقر هستند را به عهده داشت.
+                            </p>
+                            
+                            <span id="ivan-dots">...</span>
+                            <br>
+                            <button class="btn bg-white border text-muted rounded" id="ivan-btn" onclick="ivan()">ایوان که بود</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    <div class="buying-skins text-center text-white mt-5 " id="skins">
+        <h3>
+            شخصیت های پولی
+        </h3>
+        <p >در بازی زولا بعضی از شخصیت ها را باید خریداری کنید که انها عبارتند از :</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 ">
+                <div class="card  bg-light text-center my-5">
+                    <img src="imgs/zula-neda.jpg" alt="ندا جوان" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-secondary">ندا جوان</h5>
+                        <div class="card-text p-3">
+                            ندا در مانیسا متولد شد، اما به دلیل مأموریت پدرش، دوران کودکی اش را در آنکارا گذراند.او تنها
+                            کودک آکین یالمیز
+                            <span id="neda-dots">...</span>
+                            <span class="d-non" id="neda-info"> ، یکی از افسران پلیس آنکارا است. از آنجایی
+                                که او در منطقه چینی های آنکارا در آنکارا متولد شد، او احساس کرد که متعلق به آن محله
+                                است. او به محله و دوستانش وابسته بود که خالکوبی محلی خود را بر روی مچ دستش قرار داده
+                                بود. ندا در سن نوجوانی به پدرش بسیار علاقه مند بود، تنها روییایی که در سر داشت رویای
+                                یک پلیس موفق مانند پدرش بود. سالی که به آکادمی پلیس پیوست، پدرش با مرگ نهایی
+                                مرد.</span>
+
+
+
+
+                        </div>
+                        <button class="btn border bg-white rounded" id="neda-btn" onclick="neda()">ادامه</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card  bg-light text-center my-5">
+                    <img src="imgs/zula-elena.png" alt="النا آصف" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-secondary">النا آصف</h5>
+                        <div class="card-text p-3">
+                            او در شهر ویلنیوس کشور لتونی متولد شد. استعداد او در ژیمناستیک در همان دوران کودکی کشف
+                            شد،
+                            <span  id="elena-dots">...</span>
+                            <span class="d-non" id="elena-info"> و همین موضوع او را به سمت ورزش سوق داد. النا در سن 8 سالگی ،
+                                خانواده خود را بر اثر جنگ از دست داد. او که از این حمله جان سالم به در برد، برای چند
+                                روز در ویرانه های خانه خود سپری کرد. النا در طول جنگ، دوران بسیار سختی را پشت سر
+                                گذاشت و همین موضوع او را تبدیل به انسانی سرسخت کرد. لری که همچنین خانواده خود را از
+                                دست داده بود در یکی از ماموریت های خود در بوسنی و هرزگوین با النا آشنا شد. به دلیل
+                                رفتار خشونت آمیزی که النا داشت، لری تصمیم گرفت که او را به استخدام گروه گلادیو در
+                                آورد، توانایی النا در ژیمناستیک هم در این انتخاب بی تاثیر نبود. النا به مرور تبدیل
+                                به یکی از برترین افراد گلادیو شد و لقب "ماشین جنگی" به او اختصاص یافت.
+
+                            </span>
+
+
+
+                        </div>
+                        <button class="btn border bg-white rounded" id="elena-btn" onclick="elena()">ادامه</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card  bg-light text-center my-5">
+                    <img src="imgs/zula-elpatron.png" alt="ال پاترون" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-secondary">ال پاترون</h5>
+                        <div class="card-text p-3">
+                            او در ریونگرو کشور کلمبیا متولد شد. او که در حاشیه شهر زندگی می کرد از همان دوران کودکی
+                            <span id="el-dots">...</span>
+                            <span class="d-non" id="el-info">با کارهای غیرقانونی آشنا شد و با دزدی فعالیت خود را آغاز کرد تا
+                                اینکه موفق شد، سرکرده یکی از بزرگترین کارتل های کلمبیا شود و را "رئیس" صدا می زدند.
+                                بعد از مدتی امپراطوری ای که ساخته بود، در حال سقوط قرار گرفت و او که متوجه این موضوع
+                                شده بود به سراغ دیوید کینگ رفت که برای CIA کار می کرد. بعد از فرار از کلمبیا با کمک
+                                دیوید با گلادیو آشنا شد و تنها راه اون عضویت در این گروه بود.</span>
+
+
+
+
+
+                        </div>
+                        <button class="btn border bg-white rounded" id="el-btn" onclick="el()">ادامه</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class=" card  bg-light text-center my-5">
+                    <img src="imgs/zula-shahram.png" alt="شهرام" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-secondary">شهرام</h5>
+                        <div class="card-text p-3">
+                            متولد تهران است اطلاعات کمی در مورد گذشته اش موجود است. با وجودی که او از خیابان ها رشد کرد
+                            ،
+                            <span id="shahram-dots">...</span>
+                            <span class="d-non" id="shahram-info"> به راحتی توانست خودش را در همه جا با هوش و شایستگی اش مورد پذیرش قرار
+                                گیرد. شهرام، همراه با نزدیکترین دوستانش، گروهی را کشف کرد که تنش در خاورمیانه را تشدید
+                                می کرد. سرانجام او رد گلادیو را دنبال کرد و به پایگاه رادار حمله کرد. حمله ی آنها لو رفت
+                                و تمام دوستانش را در نبرد از دست داد و به طور جدی مجروح شد. تیم زولا، که این عملیاتی را
+                                برای همان پایگاه سازماندهی کرد، متوجه شد که شهرام به طور جدی زخمی شده است. چند روز بعد
+                                او بیدار شد و حقایق گلادیو را ازندا شنید. شهرام توسط غم و اندوه از دست دادن تیم خود
+                                نابود شد. او قول داد انتقام آنها را از گلادیو با پیوستن به تیم زولاکه جانش را نجات دادند
+                                بگیرد.</span>
+
+
+
+                        </div>
+                        <button class="btn border bg-white rounded" id="shahram-btn" onclick="shahram()">ادامه</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="card bg-light mb-5">
+                <img src="imgs/zula_charecters.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title text-secondary">البته بازیکنان همیشه مجبور به خرید شخصیت های پولی نیستند.</h5>
+                    <div class="card-text">
+                        بازیکنان میتوانند از طریق زولا پس ,جوایز روزانه ,ام اس سی و هدیه گرفتن از دوستان نیز شخصیت های
+                        پولی را دریافت کنند.
+                        <br>
+                        البته فقط به مدت محدود چون در بازی هیچ کدام از بازی کنان حق اینکه همیشه از یک شخصیت را استفاده
+                        کنند را ندارند.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="signup text-center" id="signup">
+        <h3 class="text-white sign">ثبت نام</h3>
+
+        <form action="#">
+            <div class="form-group">
+                <p class="text-center p-2  bg-white  opacity">برای بازی کردن زولا بازی را از www.zula.ir دانلود و فرم
+                    زیر را پر کنید تا ثبت نام شوید <br> بعد نام و رمز خود را در لانچر بازی بنویسید و از بازی لذت ببرید.
+                </p>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 ">
+                        <div class="form-group">
+                            <input type="text" class=" form-control my-3 opacity" placeholder="نام" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email " class="form-control opacity " placeholder="ایمیل" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class=" form-control my-3 opacity " placeholder="رمز" required>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    <div class="col-sm-12 col-md-6  text-right">
+                        <div class="form-group">
+                            <textarea class=" w-100 form-control mb-3  opacity" placeholder="پیام شما به تیم زولا" cols="30"
+                            rows="7"></textarea>
+                        </div>
+                        
+                        <button class="btn btn-dark rounded">ارسال</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    </main>
+    <footer class="text-center">
+        <h3 class="my-3"><i> همین حالا بازی کن.</i></h3>
+        <p class="text-muted mb-5">همین حالا بازی را از سایت <a href="https://zula.ir/">zula.ir</a>دانلود کنید.</p>
+        <small>copyright 2020 zula.ir</small>
+    </footer>
+    <img src="imgs/top.png" id="backtotop" class=" fixed-bottom m-3 d-non">
+</body>
+
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/js.js"></script>
+
+</html>
